@@ -4,7 +4,7 @@ Ejemplo de como usar funciones asincronas en rust.
 
 ### Usando tokio
 
-```
+```rust
 
 async fn ejemplo_tokio() -> String {
     "Prueba tokio".to_string()
@@ -25,7 +25,7 @@ async fn main() {
 
 ### Usando libreria estándar
 
-```
+```rust
 use futures::executor;
 
 async fn ejemplo_libreria_estandar() -> String {
